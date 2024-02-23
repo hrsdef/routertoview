@@ -15,9 +15,13 @@
     "component"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "commander": "^9.3.0",
     "ejs": "^3.1.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hrsdef/routertoview.git"
   }
 }
