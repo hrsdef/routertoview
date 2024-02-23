@@ -1,0 +1,25 @@
+<template>
+  <div class="<%= data.lowerName %>">
+    <h2>{{ message }}</h2>
+  </div>
+</template>
+
+<script lang="ts">
+import { defineComponent, ref } from 'vue'
+
+export default defineComponent({
+  setup () {
+    const message = ref('hello'+ '<%= data.name %>')
+
+    return {
+      message
+    }
+  }
+})
+</script>
+
+<style scoped>
+.<%= data.lowerName %> {
+    
+}
+</style>
